@@ -11,8 +11,9 @@ datasource db {
 }
 
 model watchClientMessages {
-  id  Int   @id @default(autoincrement())
+  id Int @id @default(autoincrement())
   count Int @default(1)
   userId String
   message String
+
 }
